@@ -12,7 +12,7 @@ int main(){
   while(n!=0){
     rem=n%10;
     rev=rev*10+rem;
-    num=num/10;
+    n=n/10;
   }
   printf("Reverse of the number is %d\n",rev);
   return 0;
